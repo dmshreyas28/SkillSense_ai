@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import Background from './components/Background';
 import StepIndicator from './components/StepIndicator';
@@ -25,7 +25,7 @@ function App() {
   const [currentStep, setCurrentStep] = useState<Step>(1);
   const [showSettings, setShowSettings] = useState(false);
   const [apiKey, setApiKey] = useState(
-    import.meta.env.VITE_GROQ_API_KEY || ''
+    (import.meta as any).env.VITE_GROQ_API_KEY || ''
   );
   
   const [appData, setAppData] = useState<AppData>({
@@ -36,7 +36,6 @@ function App() {
   });
 
   const nextStep = () => setCurrentStep((prev) => Math.min(prev + 1, 3) as Step);
-  const prevStep = () => setCurrentStep((prev) => Math.max(prev - 1, 1) as Step);
   const startOver = () => {
     setCurrentStep(1);
     setAppData({ jd: '', resumeText: '', skills: [], scores: [] });

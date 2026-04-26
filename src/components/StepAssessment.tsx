@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Send, Bot, User, CheckCircle2 } from 'lucide-react';
+import { Send, Bot, User } from 'lucide-react';
 import { AppData } from '../App';
 import { generateQuestion, scoreAnswer } from '../utils/api';
 
