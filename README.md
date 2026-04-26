@@ -4,7 +4,13 @@
 
 [Live Demo](https://skill-sense-ai-tawny.vercel.app) | [GitHub Repo](https://github.com/dmshreyas28/SkillSense_ai)
 
-## 📌 Overview
+## 📸 Screenshots
+
+| Step 1 — Upload | Step 2 — Assessment | Step 3 — Results |
+|---|---|---|
+| ![Upload](screenshots/step%201.jpg) | ![Assessment](screenshots/step%202.jpg) | ![Results](screenshots/step%203.jpg) |
+
+
 
 SkillSense AI solves a critical problem: a resume tells you what someone *claims* to know — not how well they actually know it.
 
