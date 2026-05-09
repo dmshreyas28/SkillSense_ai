@@ -1,4 +1,4 @@
-# SkillSense AI 🧠
+# SkillSense AI 
 
 > **AI-powered skill assessment & personalised learning plan generator**  
 > Conversationally evaluates real candidate proficiency — not just what's on a resume.
